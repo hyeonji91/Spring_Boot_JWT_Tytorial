@@ -19,7 +19,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Entity
-@Table(name = "`user`")
+@Table(name = "`user`")// h2 데이터베이스에 user는 예약어로 지정되어 있어 user명 사용 불가함
 @Getter
 @Setter
 @Builder
